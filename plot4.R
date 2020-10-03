@@ -25,6 +25,8 @@ data <- data %>%
 
 png("plot4.png")
 
+Sys.setlocale("LC_TIME", "C")
+
 par("mfcol" = c(2,2))
 par("lty" = 1)
 

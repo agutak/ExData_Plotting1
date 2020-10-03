@@ -25,6 +25,8 @@ data <- data %>%
 
 png("plot3.png")
 
+Sys.setlocale("LC_TIME", "C")
+
 par("lty" = 1)
 
 plot(data$Date,

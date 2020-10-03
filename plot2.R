@@ -25,6 +25,8 @@ data <- data %>%
 
 png("plot2.png")
 
+Sys.setlocale("LC_TIME", "C")
+
 plot(data$Date,
      data$Global_active_power,
      xlab = "",
